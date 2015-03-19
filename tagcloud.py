@@ -19,6 +19,11 @@ def add_tag(lib, opts, args):
         #TODO extract tag key from tag value
         print 'Item: ' + str(item)
 
+    #Confirm that the user wants to write to these files
+    #ui.input_yn('You ready')
+
+    #TODO Write tags
+
 
 tagcloud_command.func = add_tag
 
